@@ -1,0 +1,58 @@
+@import './_reset';
+
+$app-bar-elevation: 0;
+
+$material-dark: (
+    'background': #1d1d1d,
+);
+
+$body-font-family: 'Poppins', sans-serif;
+
+$btn-text-transform: false !important;
+
+$corPrimary: #007bff;
+
+[btnSemFundo] {
+    &::before {
+        background-color: transparent;
+    }
+}
+
+[linha] {
+    border: 6px dotted green;
+}
+
+[coluna] {
+    border: 2px solid red;
+}
+
+[logo] {
+    font-family: 'Concert One', cursive !important;
+    color: #fd2155;
+    text-shadow: -0.4rem 0rem 0.01rem #06c5a9;
+}
+
+[fonte1] {
+    font-family: 'Concert One', cursive !important;
+}
+[fonte2] {
+    font-family: 'Montserrat', sans-serif !important;
+}
+[fonte3] {
+    font-family: 'Titan One', cursive !important;
+}
+[fonte4] {
+    font-family: 'Baloo Tammudu 2', cursive !important;
+}
+
+[assinatura] {
+    font-family: 'Caveat', cursive;
+}
+
+[code] {
+    position: absolute;
+    background: inherit;
+    font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
+    opacity: 0.5;
+}
